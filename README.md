@@ -27,7 +27,9 @@ While the tutorial video for this component will go over both of these skills in
 # How to Setup the CSS Injector LWC in your Salesforce Org
 
 <div align="center">
+    
 [![How to Setup the CSS Injector - YouTube Tutorial](https://img.youtube.com/vi/w3lfTh6y69A/0.jpg)](https://www.youtube.com/watch?v=w3lfTh6y69A)
+
 </div>
 
 **Click the image above to watch a Video Tutorial on how to use the Salesforce CSS Injector**
