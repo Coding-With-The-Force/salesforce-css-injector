@@ -26,6 +26,8 @@ While the tutorial video for this component will go over both of these skills in
 
 # How to Setup the CSS Injector LWC in your Salesforce Org
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w3lfTh6y69A?si=UCf0e5cBE_UuqTuJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 After you install the CSS Injector into your org (either via the unlocked package or via the deploy button on this repo), I would suggest placing this component as a hidden option within your Salesforce app's utility bar so that the css injector travels with you on every page in your app. To add this as a hidden utility bar component, you can either follow the steps below, checkout the animated gif, or follow along in the video tutorial linked to this repo.   
 
 **Steps to add this LWC to a utility bar within your Salesforce apps below:**    
@@ -41,7 +43,11 @@ After you install the CSS Injector into your org (either via the unlocked packag
      * Set "Panel Height" to 1    
      * Check the "Start Automatically" checkbox    
 6) Click the "Save" button at the bottom of the page
-7) You're done! The css_injector lwc will now automatically start doing its magic
+7) You're done! The css_injector lwc will now automatically start doing its magic   
+
+**Setup gif**   
+
+![How to Setup the CSS Injector](https://github.com/Coding-With-The-Force/salesforce-css-injector/blob/main/instructional-gifs/App_Setup.gif)   
 
 ----
 
@@ -74,6 +80,10 @@ Before we get into the step by step instructions on how to do this, **it is IMPE
      * For the "Element Selector" field you need to add the CSS selectors you found when using the browser inspector. A good example would be the following: [data-target-selection-name="sfdc:RecordField.Case.Priority"] [data-value=""]     
      * For the "Active" field, set this to checked (true), if it is unchecked (false) then the CSS Injection will not be loaded into the page    
      * For the "Element CSS" add the CSS that you want to apply to your Element Selector. A good example would be: {display:none;}   
-5) That's it, you're done! As long as your selector was correct, and your CSS is valid, the CSS Injector LWC should now update your page appropriately!
+5) That's it, you're done! As long as your selector was correct, and your CSS is valid, the CSS Injector LWC should now update your page appropriately!    
+
+**How to Create CSS Injectors gif**
+
+![How to Setup the CSS Injector](https://github.com/Coding-With-The-Force/salesforce-css-injector/blob/main/instructional-gifs/How_To_Use.gif)
 
 
