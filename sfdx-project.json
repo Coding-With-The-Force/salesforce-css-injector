@@ -1,13 +1,22 @@
 {
   "packageDirectories": [
     {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
       "path": "force-app",
-      "default": true
+      "default": true,
+      "package": "Salesforce-CSS-Injector",
+      "versionDescription": "An app that allows you to dynamically inject CSS into your page to alter the out of the box Salesforce UI."
     }
   ],
   "name": "element_hider",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "66.0",
-  "defaultLwcLanguage": "javascript"
+  "defaultLwcLanguage": "javascript",
+  "packageAliases": {
+    "Salesforce-CSS-Injector": "0Hog70000000Mq9CAE",
+    "Salesforce-CSS-Injector@0.1.0-1": "04tg70000007RJdAAM",
+    "Salesforce-CSS-Injector@0.1.0-2": "04tg70000007RLFAA2"
+  }
 }
