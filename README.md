@@ -28,11 +28,17 @@ While the tutorial video for this component will go over both of these skills in
 
 <div align="center">
     
-[![How to Setup the CSS Injector - YouTube Tutorial](https://img.youtube.com/vi/w3lfTh6y69A/0.jpg)](https://www.youtube.com/watch?v=w3lfTh6y69A)
+<a href="https://www.youtube.com/watch?v=w3lfTh6y69A">
+  <img src="https://img.youtube.com/vi/w3lfTh6y69A/0.jpg" width="100%" alt="How to Setup the CSS Injector - YouTube Tutorial" />
+</a>  
+
+<br/>
+
+**Click the image above to watch a Video Tutorial on how to use the Salesforce CSS Injector**   
+
 
 </div>
 
-**Click the image above to watch a Video Tutorial on how to use the Salesforce CSS Injector**
 
 After you install the CSS Injector into your org (either via the unlocked package or via the deploy button on this repo), I would suggest placing this component as a hidden option within your Salesforce app's utility bar so that the css injector travels with you on every page in your app. To add this as a hidden utility bar component, you can either follow the steps below, checkout the animated gif, or follow along in the video tutorial linked to this repo.   
 
