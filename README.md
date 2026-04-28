@@ -53,6 +53,27 @@ To setup the CSS Injections via the CSS Injector Custom Metadata type, you'll ne
 
 Before we get into the step by step instructions on how to do this, **it is IMPERATIVE that you utilize a unique selector to select the HTML element you are overriding the CSS for**. This is often in the form of a data-attribute on the HTML Element, not a class. Many elements in the HTML utilize the exact same class, so if you just override the CSS for an HTML element by using the class assigned to it, you are likely to unintentionally inject css into other HTML elements on the screen as well. So look for data attributes you can leverage, or use nested selections if there are no good data attributes.
 
-Steps 
+**Steps to find a CSS Selector via the Browser Inspector:**   
+
+1) First traverse to the page in your Salesforce org that you would like to update the CSS for   
+2) Right click the page and choose the "Inspect" option, this should open a side panel (or potentially a modal) that should default to the "Elements" tab and show you the HTML in your page.   
+3) In the top left corner of the Inspector side panel there is an icon that looks like an arrow with a dashed square around it. Click that icon.   
+4) After you click that icon, click the area of the page in Salesforce that you would like to update the CSS for. After clicking the area of your salesforce page, the "Elements" tab should now be highlighting the HTML that represents that portion of the page.   
+5) Look at that HTML and find attributes that you can use to uniquely identify your HTML element when setting up a CSS selector (this is often data attributes). Write down the names of those attributes.      
+6) You can also use the "Styles" tab on the bottom half of your browser inspector to demo CSS changes before you make them. You just need to add the css to the "element.style{}" area of the inspector.    
+7) That's it, now we just need to add the selectors and the styles to the CSS_Injector custom metadata type.   
+
+**Steps to add a CSS Injector Custom Metadata Record**  
+
+1) Go to Setup -> Quick Find -> Custom Metadata Types   
+2) Click the "Manage Records" link to the left of the "CSS Injector" custom metadata type   
+3) Click the "New" button at the top of the page   
+4) Fill out the CSS Injector record with the following values:   
+     * Set the "Label" field to whatever you want   
+     * The "CSS Injector Name" should get auto-filled for you   
+     * For the "Element Selector" field you need to add the CSS selectors you found when using the browser inspector. A good example would be the following: [data-target-selection-name="sfdc:RecordField.Case.Priority"] [data-value=""]     
+     * For the "Active" field, set this to checked (true), if it is unchecked (false) then the CSS Injection will not be loaded into the page    
+     * For the "Element CSS" add the CSS that you want to apply to your Element Selector. A good example would be: {display:none;}   
+5) That's it, you're done! As long as your selector was correct, and your CSS is valid, the CSS Injector LWC should now update your page appropriately!
 
 
