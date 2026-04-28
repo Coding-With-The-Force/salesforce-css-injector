@@ -26,7 +26,7 @@ While the tutorial video for this component will go over both of these skills in
 
 # How to Setup the CSS Injector LWC in your Salesforce Org
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/w3lfTh6y69A?si=UCf0e5cBE_UuqTuJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![How to Setup the CSS Injector - YouTube Tutorial](https://img.youtube.com/vi/w3lfTh6y69A/0.jpg)](https://www.youtube.com/watch?v=w3lfTh6y69A)
 
 After you install the CSS Injector into your org (either via the unlocked package or via the deploy button on this repo), I would suggest placing this component as a hidden option within your Salesforce app's utility bar so that the css injector travels with you on every page in your app. To add this as a hidden utility bar component, you can either follow the steps below, checkout the animated gif, or follow along in the video tutorial linked to this repo.   
 
@@ -47,7 +47,7 @@ After you install the CSS Injector into your org (either via the unlocked packag
 
 **Setup gif**   
 
-![How to Setup the CSS Injector](https://github.com/Coding-With-The-Force/salesforce-css-injector/blob/main/instructional-gifs/App_Setup.gif)   
+![How to Setup the CSS Injector](https://raw.githubusercontent.com/Coding-With-The-Force/salesforce-css-injector/main/instructional-gifs/App_Setup.gif)
 
 ----
 
@@ -84,6 +84,6 @@ Before we get into the step by step instructions on how to do this, **it is IMPE
 
 **How to Create CSS Injectors gif**
 
-![How to Setup the CSS Injector](https://github.com/Coding-With-The-Force/salesforce-css-injector/blob/main/instructional-gifs/How_To_Use.gif)
+![How to Setup the CSS Injector](https://raw.githubusercontent.com/Coding-With-The-Force/salesforce-css-injector/main/instructional-gifs/How_To_Use.gif)
 
 
