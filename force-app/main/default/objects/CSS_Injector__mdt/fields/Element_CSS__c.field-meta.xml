@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Element_CSS__c</fullName>
+    <description>This is the css you would like to add to the OOTB element you are overriding.</description>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>This is the css you would like to add to the OOTB element you are overriding.</inlineHelpText>
+    <label>Element CSS</label>
+    <length>12000</length>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>
