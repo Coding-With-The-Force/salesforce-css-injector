@@ -1,7 +1,7 @@
 # The Salesforce CSS Injector
 
 <p align="center">
-<a href="https://githubsfdeploy.herokuapp.com?owner=Coding-With-The-Force&repo=salesforce-css-injector">
+<a href="https://githubsfdeploy.herokuapp.com?owner=Coding-With-The-Force&repo=salesforce-css-injector&ref=main">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>
