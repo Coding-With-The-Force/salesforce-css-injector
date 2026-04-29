@@ -1,21 +1,29 @@
 # The Salesforce CSS Injector
 
+This lightning web component allows you to alter the out of the box Salesforce CSS within nearly any element in the page. All you have to do is find a good css selector, write the css, and then create a custom metadata setting record to represent your hawt new style updates.   
+
 <p align="center">
-<a href="https://githubsfdeploy.herokuapp.com?owner=Coding-With-The-Force&repo=salesforce-css-injector&ref=main">
+
+If you would prefer to not install this via an unlocked package, use the "Deploy to Salesforce" button below to deploy the code to your org.
+
+  <a align="center" href="https://githubsfdeploy.herokuapp.com?owner=Coding-With-The-Force&repo=salesforce-css-injector&ref=main">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>
+
 <br/>
+<br/>
+
+If you would prefer to install this via an unlocked package to receive updates to the app in the future, use one of the two links below to deploy the code to your org.
+
 <a href="https://test.salesforce.com/packaging/installPackage.apexp?p0=04tg70000007RLFAA2">
 <img alt="Deploy Unlocked Package to Prod" src="https://github.com/Coding-With-The-Force/Salesforce_Character_Counting_Component/blob/master/images/btn-install-unlocked-package-sandbox.png?raw=true">
 </a>
 <a style="padding-left: 10px" href="https://login.salesforce.com/packaging/installPackage.apexp?p0=04tg70000007RLFAA2">
 <img alt="Deploy Unlocked Package to Prod" src="https://github.com/Coding-With-The-Force/Salesforce_Character_Counting_Component/blob/master/images/btn-install-unlocked-package-production.png?raw=true">
 </a>
+
 </p>
-
-
-This lightning web component allows you to alter the out of the box Salesforce CSS within nearly any element in the page. All you have to do is find a good css selector, write the css, and then create a custom metadata setting record to represent your hawt new style updates. Tutorial video, setup gif, and additional information coming soon.
 
 ----
 
